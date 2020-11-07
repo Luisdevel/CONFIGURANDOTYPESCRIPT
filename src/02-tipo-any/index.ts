@@ -1,4 +1,5 @@
 // Utilize any somente no último caso, pois ele é um tipo em que não queremos utilizar
+/* eslint-disable */
 function showMessage(msg: any) {
   return msg;
 }
