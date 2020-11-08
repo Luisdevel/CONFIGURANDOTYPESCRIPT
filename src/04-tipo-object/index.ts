@@ -13,5 +13,6 @@ const objectA: {
 objectA.keyA = 'Outro Valor';
 objectA.keyC = 'Nova chave';
 objectA.keyD = 'Nova chave';
+// objectA.keyE = 'Outro valor';
 
 console.log(objectA);
