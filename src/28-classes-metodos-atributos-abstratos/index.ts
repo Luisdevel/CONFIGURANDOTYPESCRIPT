@@ -46,3 +46,37 @@ warrior.attacked(monster);
 monster.attacked(warrior);
 monster.attacked(warrior);
 monster.attacked(warrior);
+
+/*
+export class Character {
+constructor(
+  protected name: string,
+  protected attack: number,
+  protected life: number,
+) {}
+
+attacked(character: Character): void {
+  console.log(`${this.name} está atacando...`);
+  character.loseLife(this.attack);
+}
+
+loseLife(attackForce: number): void {
+  this.life -= attackForce;
+  console.log(`${this.name} está com ${this.life} de vida...`);
+}
+}
+
+export class Warrior extends Character {}
+export class Monster extends Character {}
+
+const warrior = new Character('Warrior', 100, 1000);
+const monster = new Character('Monster', 87, 1000);
+
+warrior.attacked(monster);
+warrior.attacked(monster);
+warrior.attacked(monster);
+monster.attacked(warrior);
+monster.attacked(warrior);
+monster.attacked(warrior);
+
+*/
